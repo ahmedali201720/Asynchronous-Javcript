@@ -16,17 +16,16 @@ A JavaScript Promise object can be:
 
 ### Example
 
-`
-let myPromise = new Promise(function(myResolve, myReject) {
-myResolve(); // when successful
-myReject(); // when error
-});
+```
+    let myPromise = new Promise(function(myResolve, myReject) {
+    myResolve(); // when successful
+    myReject(); // when error
+    });
 
     myPromise.then(
     function(value) { /* code if successful */ },
     function(error) { /* code if some error */ }
     );
-
-`
+```
 
 For more information , see the documentation [Promises](https://www.w3schools.com/js/js_promise.asp)
